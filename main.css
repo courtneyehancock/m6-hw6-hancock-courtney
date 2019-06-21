@@ -7,3 +7,37 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  padding-bottom: 1%;
+}
+.bg {
+  background-image: url('images/menu.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-gen {
+  text-align: center;
+}
+
+button {
+  background-color: #bb0a1e;
+  padding: 1%;
+  border-radius: 10%;
+  color: #fff;
+}
+
+#generator-button {
+  margin: 25% auto;
+}
