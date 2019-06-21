@@ -8,22 +8,23 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
-body {
-  font-family: sans-serif;
-}
 
 .big-and-bold{
-  Font-size: 48px;
-  Font-weight: 400;
-  Transition: all 2s;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 2s;
+  font-family: 'Homemade Apple', cursive;
+  color: #bb0a1e;
 }
 
 h1 {
   padding-bottom: 1%;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 10px;
   max-width: 200px;
   margin: 0 auto;
+  color: #5a5d59;
+  font-family: 'Mali', cursive;
 }
 
 .bg {
@@ -43,8 +44,37 @@ button {
   padding: 1%;
   border-radius: 10%;
   color: #fff;
+  font-family: 'Mali', cursive;
 }
 
 #generator-button {
-  margin: 25% auto;
+  margin: 25% auto 0;
+}
+@media (min-width: 450px) {
+  .big-and-bold {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 600px) {
+  .big-and-bold {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 800px) {
+  .big-and-bold {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
 }

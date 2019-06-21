@@ -11,7 +11,7 @@ lunchItemWrapper.appendChild(ourRandomLunchItem);
 var placeholderText = document.createTextNode('');
 ourRandomLunchItem.appendChild(placeholderText);
 
-var lunchItems = ['Mexican Food', 'Sushi', 'Chicken Wings', 'Pizza', 'Greek Food', 'Subs or Sandwhiches'];
+var lunchItems = ['Pepperoni Pizza', 'Cheese Pizza', 'White Pizza', 'Meat Lovers Pizza', 'Hawaiian Pizza', 'Veggie Pizza', 'Pineapple Pizza', 'Margherita Pizza', 'Supreme Pizza', 'Aloha Pizza', 'Spicy Italian Pizza', 'BBQ Pizza'];
 
 
 var myFunction = function() {
